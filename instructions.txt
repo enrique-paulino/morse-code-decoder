@@ -1,0 +1,12 @@
+After PI is connected to monitor, open node red console.
+Login to the thingsboard account > Open "RaspPiDashboard"
+Make all the inputs you want > tap the button twice to send the data to things board.
+(If no changes happened on thingsboard refresh the page and the most recent message should be there).
+
+If you click at:
+  1 BEEP = DOT .
+  3 BEEP = DASH -
+  7 BEEP = SPACE (between words)
+  
+  ONE TAP = SPACE (between letters)
+  TWO TAP = SEND MESSAGE (TAP 2 times again to reset message)
