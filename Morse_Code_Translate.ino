@@ -1,11 +1,3 @@
-t i /***************************************************************************
-* Sketch Name: Lab1_code1
-* Description: Arduino - Grove_Pi_Sensors
-* Parameters: PIR, Light, Button, LED
-* Return: Dark, Light, Movement, Watching
-* Copyright: Following code is written for educational purposes by Cardiff University.
-* Latest Version: 14/11/2020 (by Hakan KAYAN)
-***************************************************************************/
 #define PIR_MOTION_SENSOR 2
 
 const int buzzer = 2; // the number of the buzzer pin, D3
@@ -57,7 +49,7 @@ void loop() {
 
       analyse_input(holdTime); // Converts input to . - or /
       
-      if (message.endsWith(" ")) {
+      if (message.endsWith("  ")) {
         Serial.println(message); // Send letter to the Raspberry PI
         delay(1000);
         message = "";
